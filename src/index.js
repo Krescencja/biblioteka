@@ -37,17 +37,12 @@ root.render(
         description='Dziś było tylu graczy, że miejsca zabrakło. '
         image= {theImagethree}
     />
-    <CardRight
+    <CardRightSlide
         ImageCarouselOne={theImageone}
         ImageCarouselTwo={theImagetwo}
         ImageCarouselThree={theImagethree}
         title='Gry bez prądu'
         description='Dziś było tylu graczy, że miejsca zabrakło. '
-    />
-    <CardLeft 
-        title='NOWY WPIS'
-        description='NOWY WPIS '
-        image= {A}
     />
     <Footer/>
   </React.StrictMode>
